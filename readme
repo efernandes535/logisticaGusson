@@ -1,0 +1,51 @@
+# Controle de Viagens
+
+Este é um sistema de controle de viagens desenvolvido em PHP. Ele permite gerenciar motoristas, veículos (placas), viagens e gerar relatórios de quilometragem.
+
+## Funcionalidades
+
+- **Autenticação de Usuário**: Login e logout de usuários.
+- **Gerenciamento de Motoristas**: Adicionar, editar e deletar motoristas.
+- **Gerenciamento de Placas**: Adicionar, editar e deletar placas de veículos.
+- **Controle de Viagens**: Adicionar, editar, visualizar e deletar viagens.
+- **Relatórios**: Gerar relatórios de quilometragem por placa e relatórios gerais de viagens.
+
+## Estrutura do Projeto
+
+- `config/`: Contém o arquivo de configuração do banco de dados.
+- `controllers/`: Contém os controladores que gerenciam a lógica de negócios.
+- `css/`: Contém o arquivo de estilo CSS.
+- `includes/`: Contém arquivos de inclusão como a conexão com o banco de dados e o rodapé.
+- `models/`: Contém os modelos que representam as entidades do banco de dados.
+- `views/`: Contém as páginas de visualização do sistema.
+- `index.php`: Página inicial que redireciona para a lista de viagens.
+- `logout.php`: Script para logout do usuário.
+- `hash.php`: Script para gerar hash de senhas.
+- `databasesetup.sql`: Script SQL para configurar o banco de dados.
+
+## Configuração
+
+1. Clone o repositório para o seu ambiente local.
+2. Configure o banco de dados utilizando o script `databasesetup.sql`.
+3. Atualize as credenciais do banco de dados no arquivo `config/config.php`.
+4. Inicie o servidor web e acesse o sistema através do navegador.
+
+## Uso
+
+1. Faça login com as credenciais de usuário.
+2. Navegue pelas funcionalidades do sistema através do menu.
+3. Gerencie motoristas, placas e viagens conforme necessário.
+4. Gere relatórios para visualizar a quilometragem e detalhes das viagens.
+
+## Tecnologias Utilizadas
+
+- PHP
+- MySQL
+- HTML
+- CSS
+
+## Autor
+
+Everton Fernandes Medeiros
+
+Todos os direitos reservados © <?php echo date('Y'); ?>

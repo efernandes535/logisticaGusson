@@ -1,0 +1,3 @@
+[08-Feb-2025 14:39:10 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/logis447/public_html/deletar.php:1) in /home1/logis447/public_html/deletar.php on line 16
+[08-Feb-2025 22:25:39 America/Fortaleza] PHP Warning:  Undefined array key "usuario_tipo" in /home1/logis447/public_html/index.php on line 8
+[08-Feb-2025 22:28:55 America/Fortaleza] PHP Warning:  Undefined array key "usuario_tipo" in /home1/logis447/public_html/index.php on line 8
